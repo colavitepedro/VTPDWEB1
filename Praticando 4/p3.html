@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Praticando 3 - Seções e Containers</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", Times, serif;
+      color: #111;
+    }
+    .page {
+      width: 94%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .site-header {
+      background: #bfe6ee;
+      padding: 28px;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+    }
+    .site-header h1 {
+      margin: 0 0 8px;
+      font-size: 38px;
+      font-weight: 700;
+      color: #0b2b2e;
+    }
+    .site-header p {
+      margin: 0;
+      color: #2f4f53;
+      font-size: 14px;
+    }
+    main {
+      margin-top: 18px;
+    }
+    .section {
+      background: #e9fbe9;
+      padding: 22px;
+      margin: 18px 0;
+      border: 1px solid rgba(0, 0, 0, 0.03);
+    }
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 24px;
+      color: #0b2b2e;
+    }
+    .box {
+      background: #fff;
+      border: 2px solid #8f8f8f;
+      padding: 18px;
+      margin-bottom: 14px;
+      line-height: 1.6;
+    }
+    .blue {
+      color: #0c4ef2;
+      font-weight: 700;
+    }
+    .green {
+      color: #14913a;
+      font-weight: 700;
+    }
+    .red {
+      color: #d01616;
+      font-weight: 700;
+    }
+    .highlight {
+      background: #ffef00;
+      border: 3px solid #b00;
+      padding: 10px 14px;
+      margin-top: 8px;
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06) inset;
+      font-weight: 600;
+    }
+    .site-footer {
+      background: #d6d6d6;
+      padding: 22px;
+      margin-top: 26px;
+      text-align: center;
+      color: #2e2e2e;
+      font-size: 16px;
+    }
+    @media (max-width: 600px) {
+      .site-header h1 {
+        font-size: 26px;
+      }
+      .section h2 {
+        font-size: 20px;
+      }
+      .box, .highlight {
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>Praticando 3 - Seções e Containers</h1>
+      <p>Este é um exemplo de cabeçalho feito com &lt;header&gt;.</p>
+    </header>
+    <main>
+      <section class="section">
+        <h2>Seção 1</h2>
+        <div class="box">
+          Este é um exemplo de texto com uma palavra <span class="blue">azul</span>, uma palavra <span class="green">verde</span> e uma palavra <span class="red">vermelha</span>.
+        </div>
+        <div class="highlight">Caixa feita com DIV dentro da seção.</div>
+      </section>
+      <section class="section">
+        <h2>Seção 2</h2>
+        <div class="box">
+          Este é outro exemplo de texto, <span class="green">agora há mais palavras em verde</span>, <span class="blue">algumas em azul</span> e só uma em <span class="red">vermelho</span>.
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      Este é um exemplo de rodapé feito com &lt;footer&gt;.
+    </footer>
+  </div>
+</body>
+</html>

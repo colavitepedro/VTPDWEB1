@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 4 - Bordas em CSS</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {   
+            padding: 15px;
+        }
+
+        .caixa {
+            background-color: lightblue;
+            border-bottom: 10px solid salmon;
+            border-right: 30px solid salmon;
+        }
+
+        h1 {
+            position: relative;
+            font-size: 2rem;
+            margin: 40px 0;
+            padding: 5px 0;
+            text-align: left;
+            display: inline-block;
+            width: auto;
+            border-bottom: 10px solid black;
+            box-shadow: 0 10px 0 0 green;
+        }
+
+        h1::before {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: black;
+        }
+
+        h1::after {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: green;
+        }
+
+        .container-borda {
+            margin-left: 50px;
+            margin-right: 50px;
+            border: 10px dotted purple;
+            text-align: left;
+        }
+
+        figure img {
+            border: 10px solid rgb(141, 13, 141);
+            outline: 10px solid rgb(189, 18, 189);
+            outline-offset: 8px;
+            max-width: 400px;
+            height: auto;
+        }
+
+        figcaption {
+            margin-top: 15px;
+            text-align: left;
+        }
+
+        footer {   
+            padding: 15px;
+        }
+
+        .caixa-azul {
+            background-color: lightblue;
+            border-top: 10px solid salmon;
+            border-left: 30px solid salmon;
+        } 
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="titulo-container">
+            <h1>Praticando 4 - Bordas em CSS</h1>
+        </div>
+        <p class="caixa">
+            Tartaruga-marinha (<em>Cheloniidae</em>) é a família da ordem das tartarugas que inclui as espécies 
+            que habitam mares tropicais e subtropicais em todo o mundo. O grupo é constituído por seis gêneros 
+            e sete espécies, todas elas ameaçadas de extinção.
+            <br><br>
+        </p>
+    </header>
+
+    <main>
+        <div class="container-borda">
+            <figure>
+                <img src="tartaMarinha.png" alt="Tartaruga marinha">
+                <figcaption>
+                    Tartaruga marinha (<em>Cheloniidae</em>)
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p class="caixa-azul">
+            A sobrevivência das tartarugas-marinhas continua em risco devido a muitos anos de caça intensiva 
+            pela sua carapaça, carne (utilizada para sopa) e gordura. Atualmente a caça está controlada, 
+            mas estes animais continuam ameaçados pelas redes de pesca que matam cerca de 40 000 exemplares 
+            por ano. Outra das maiores ameaças é o desenvolvimento costeiro nas áreas de nidificação, 
+            que impede as fêmeas de pôr os ovos e impossibilita a sua reprodução.
+            <br><br>
+            A maioria das espécies são migratórias e vagueiam pelos oceanos, orientando-se com a ajuda 
+            do campo magnético terrestre
+        </p>
+    </footer>
+
+</body>
+</html>

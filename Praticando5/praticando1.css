@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(212, 207, 207);
+}
+
+nav{
+  background-color: gray;
+}
+
+
+.grifarVermelho{
+  background-color: red;
+}
+
+.grifarVerde{
+  background-color: green;
+  color: white;
+}
+
+.grifarAmarelo{
+  background-color: yellow;
+  color: black;
+}
+.grifarAzul{
+  background-color: blue;
+  color: white;
+}
+.grifarPreto{
+  background-color: black;
+  color: white;
+}
+
+.blocoTransparente{
+  background-color: gray
+}
+
+.blocoVermelho{
+  background-color: rgb(231, 134, 134);
+  span{
+    background-color: red;
+  }
+}
+
+.blocoVerde{
+  background-color: rgb(134, 231, 145);
+  span{
+    background-color: green;
+  }
+}
+
+.blocoAmarelo{
+  background-color: rgb(231, 231, 134);
+  span{
+    background-color: yellow;
+  }
+}
+
+.blocoAzul{
+  background-color: rgb(134, 179, 231);
+  span{
+    background-color: blue;
+  }
+}
+
+.blocoPreto{
+  background-color: rgb(60, 60, 60);
+  color: white;
+  span{
+    background-color: black;
+    color: white;
+  }
+}

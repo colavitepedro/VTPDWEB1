@@ -1,0 +1,33 @@
+ .verdeClaro {
+    background-color: #90ee90;
+    height: 32px;
+}
+
+ .verdeEscuro{
+    background-color: #006400;
+    height: 32  px;
+}
+
+ .verdeMaisEscuro{
+    background-color: #004d00;
+    height: 32px;
+}
+
+ .branco{
+    background-color: #ffffff;
+    height: 40px;
+}
+
+ .vermelho{
+    background-color: #ff0000;
+    height: 32px;
+} 
+ .vermelhoMaisClaro{
+    background-color: #ff6666;
+    height: 32px;
+}
+
+ .vermelhoMaisEscuro{
+    background-color: #800000;
+    height: 32px;
+}

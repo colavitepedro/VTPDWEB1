@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Praticando 1 - Planos de fundos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Times New Roman, Times, serif;
+            background: #c2e2ee;
+        }
+        .container {
+            width: 100vw;
+            min-height: 100vh;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            padding: 20px 0 0 10px;
+            font-weight: bold;
+        }
+        .secao1 {
+            background: #f08080;
+            margin: 20px 10px 0 10px;
+            padding: 10px;
+            border-radius: 2px;
+        }
+        .secao1 h2 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .secao2 {
+            background: #444;
+            margin: 10px 10px 0 10px;
+            padding: 10px;
+            border-radius: 2px;
+            background-image: url('gato.png');
+            background-repeat: repeat-x;
+            background-size: 100px 80px;
+            position: relative;
+        }
+        .secao2 h2 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+            color: #2a3cff;
+            text-shadow: 1px 1px 0 #fff;
+        }
+        .secao2 p {
+            color: #2a3cff;
+            font-size: 1.1em;
+            font-weight: 500;
+            text-shadow: 1px 1px 0 #fff;
+            margin: 0;
+        }
+        .secao3 {
+            background: #b2f5c2;
+            margin: 10px 10px 0 10px;
+            padding: 10px;
+            border-radius: 2px;
+            position: relative;
+            overflow: hidden;
+            z-index: 10;
+        }
+        .secao3 h2 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+            color: #228b22;
+        }
+        .secao3 p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+        .gato-img {
+            position: fixed;
+            right: 10px;
+            bottom: 0;
+            width: 400px;
+            height: auto;
+            z-index: 5;
+        }
+        @media (max-width: 900px) {
+            .gato-img {
+                width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Praticando 1 - Planos de fundos</h1>
+        <div class="secao1">
+            <h2>Seção 1</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, culpa assumenda. Maiores, ullam? Praesentium repudiandae minus deserunt aspernatur maxime sunt? Soluta cum voluptates natus ad nisi sapiente dolor necessitatibus fugiat!</p>
+        </div>
+        <div class="secao2">
+            <h2>Seção 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, culpa assumenda. Maiores, ullam? Praesentium repudiandae minus deserunt aspernatur maxime sunt? Soluta cum voluptates natus ad nisi sapiente dolor necessitatibus fugiat!</p>
+        </div>
+        <div class="secao3">
+            <h2>Seção 3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, culpa assumenda. Maiores, ullam? Praesentium repudiandae minus deserunt aspernatur maxime sunt? Soluta cum voluptates natus ad nisi sapiente dolor necessitatibus fugiat!</p>
+        </div>
+    </div>
+    <img src="gato.png" alt="Gato" class="gato-img">
+</body>
+</html>

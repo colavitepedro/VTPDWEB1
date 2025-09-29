@@ -1,0 +1,57 @@
+
+    .vermelho{
+        color: red;
+        background-color: rgb(255, 190, 178);
+        font-family: 'Saira', sans-serif;
+    }
+
+    .azul{
+        color: blue;
+        background-color: rgb(190, 224, 250);
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .verde{
+        color: green;
+        background-color: rgb(171, 253, 175);
+        font-family: 'Merriweather', serif;
+    }
+    .roxo{
+        color: black;
+        background-color: rgb(219, 175, 255);
+    }
+
+    .branco{
+        background-color: white;
+        color: black;
+    }
+
+    .cinza{
+        background-color: gray;
+        color: black;
+
+    }
+    
+    table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+    span{
+        font-weight: bold;
+        background-color: yellow;
+        color: black;
+    }
+
+    div{
+        margin: 20px 75px 20px 75px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    img{
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 15px;
+    }

@@ -1,0 +1,21 @@
+body { 
+  width: 310px; 
+  margin: 50px auto; 
+} 
+.linha { 
+  margin-bottom: 10px; 
+} 
+#c, .q { 
+  width: 90px; 
+  height: 90px; 
+  display: inline-block; 
+  margin-right: 10px; 
+} 
+#c { 
+  background-color: red; 
+  border-radius: 50%; 
+} 
+.q { 
+  background-color: green; 
+  border-radius: 10px; 
+}

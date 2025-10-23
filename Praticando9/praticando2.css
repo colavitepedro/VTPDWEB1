@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.caixa {
+  background-color: green;
+}
+
+.linha-1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 22px;
+}
+
+.caixa.pequena {
+  width: 90px;
+  height: 90px;
+}
+
+.linha-2 {
+  display: flex;
+  gap: 30px;
+}
+
+.caixa.media {
+  width: 310px;
+  height: 90px;
+}
+
+.linha-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.caixa.grande {
+  width: 90px;
+  height: 260px;
+}
+
+.caixa-direita {
+  display: flex;
+  gap: 22px;
+}
+
+.caixa.media-vertical {
+  width: 90px;
+  height: 260px;
+}

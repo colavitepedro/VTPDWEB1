@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.instrucoes {
+  margin-bottom: 30px;
+}
+
+.instrucoes h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.instrucoes ol {
+  margin-left: 20px;
+}
+
+.instrucoes li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.tecla {
+  background-color: yellow;
+  padding: 2px 5px;
+  font-weight: bold;
+  margin: 0 2px;
+}
+
+.container {
+  position: relative;
+  width: 420px;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.quadrado {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border: 5px solid black;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.quadrado.ativo {
+  z-index: 10;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.vermelho {
+  background-color: red;
+  left: 0;
+  top: 0;
+}
+
+.azul {
+  background-color: blue;
+  left: 140px;
+  top: 0;
+}
+
+.verde {
+  background-color: green;
+  left: 280px;
+  top: 0;
+}
+

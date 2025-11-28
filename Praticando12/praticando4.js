@@ -3,15 +3,17 @@ $(document).ready(function() {
   const velocidade = 10; 
 
   $('.quadrado').click(function() {
+    if (quadradoAtivo && !$(this).hasClass('ativo')) {
+      alert('Clique novamente no quadrado ativo para desativá-lo antes de selecionar outro.');
+      return;
+    }
     if ($(this).hasClass('ativo')) {
       const originalLeft = $(this).data('original-left');
       const originalTop = $(this).data('original-top');
-      
       $(this).css({
         left: originalLeft + 'px',
         top: originalTop + 'px'
       });
-      
       $(this).removeClass('ativo');
       quadradoAtivo = null;
     } else {

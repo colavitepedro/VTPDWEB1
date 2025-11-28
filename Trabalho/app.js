@@ -16,10 +16,10 @@
   const URL_REM = 'https://epansani.com.br/2025/dwe1/ajax/rem.php';
 */
 
-// URLs para desenvolvimento local (usa dados.json)
-const URL_LIST = 'dados.json';
-const URL_INS = 'dados.json';
-const URL_REM = 'dados.json';
+// URLs para produção (API externa)
+const URL_LIST = 'https://epansani.com.br/2025/dwe1/ajax/list.php';
+const URL_INS = 'https://epansani.com.br/2025/dwe1/ajax/ins.php';
+const URL_REM = 'https://epansani.com.br/2025/dwe1/ajax/rem.php';
 
 // Helpers para UI
 function showAlert(type, message, timeout = 4000) {

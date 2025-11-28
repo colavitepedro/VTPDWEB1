@@ -1,0 +1,10 @@
+
+body { background: #f8f9fa; }
+header h1 { letter-spacing: 0.4px; }
+.card { border-radius: 8px; }
+#alertArea { margin-bottom: 10px; }
+#tableContatos { margin-bottom: 0; }
+.bg-primary { background-color: #0d6efd !important; }
+
+
+footer { margin-top: 30px; }
